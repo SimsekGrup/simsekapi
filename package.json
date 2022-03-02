@@ -1,0 +1,25 @@
+{
+  "name": "simsekapi",
+  "version": "1.0.4",
+  "description": "Simsek API için oluşturulmuş küçük bir yardımcı modül. | https://api.simsek.biz.tr",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SimsekGrup/simsekapi.git"
+  },
+  "keywords": [
+    "simsekapi", "namaz vakti api", "döviz api", "hava durumu api", "eczane api", "burç yorumları api", "kripto api", "altın fiyatları api", "instagram api", "tvde bugün api", "tarihte bugün api", "haber api" 
+  ],
+  "author": "Turkoglu- (Şafak ŞİMŞEK)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/SimsekGrup/simsekapi/issues"
+  },
+  "homepage": "https://github.com/SimsekGrup/simsekapi#readme",
+  "dependencies": {
+    "axios": "^0.26.0"
+  }
+}
