@@ -1,17 +1,34 @@
 {
   "name": "simsekapi",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Simsek API için oluşturulmuş küçük bir yardımcı modül. | https://api.simsek.biz.tr",
   "main": "index.js",
   "scripts": {
-    "test": "node index"
+    "build": "npm run lint",
+    "lint": "eslint ./src",
+    "test": "mocha"
   },
+  "files": [
+    "src",
+    "index.js"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/SimsekGrup/simsekapi.git"
   },
   "keywords": [
-    "simsekapi", "namaz vakti api", "döviz api", "hava durumu api", "eczane api", "burç yorumları api", "kripto api", "altın fiyatları api", "instagram api", "tvde bugün api", "tarihte bugün api", "haber api" 
+    "simsekapi",
+    "namaz vakti api",
+    "döviz api",
+    "hava durumu api",
+    "eczane api",
+    "burç yorumları api",
+    "kripto api",
+    "altın fiyatları api",
+    "instagram api",
+    "tvde bugün api",
+    "tarihte bugün api",
+    "haber api"
   ],
   "author": "Turkoglu- (Şafak ŞİMŞEK)",
   "license": "Apache-2.0",
@@ -21,5 +38,12 @@
   "homepage": "https://github.com/SimsekGrup/simsekapi#readme",
   "dependencies": {
     "axios": "^0.26.0"
+  },
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "eslint": "^8.18.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.5.0",
+    "mocha": "^10.0.0"
   }
 }
