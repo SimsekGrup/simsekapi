@@ -1,1 +1,1 @@
-module.exports = require('./lib/simsekapi.js');
+module.exports = require("./src/client.js");
