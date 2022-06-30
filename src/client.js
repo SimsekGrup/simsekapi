@@ -106,13 +106,13 @@ class Client {
   }
 
   instagram(proccess, value, edit) {
-    if (proccess) {
+    if (!proccess) {
       throw new Error(
         "(SIMSEK API - Instagram) İşlem girilmemiş. 'kullanici' veya 'gonderi' işlemlerini kullanabilirsiniz."
       );
     }
 
-    if (value) {
+    if (!value) {
       throw new Error(
         "(SIMSEK API - Instagram) Değer girilmemiş. 'kullanici' veya 'gonderi' işlemlerini kullanabilirsiniz."
       );
